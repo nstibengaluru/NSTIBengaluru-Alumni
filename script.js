@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function submitToGoogleSheets(data) {
         // Replace with your Google Apps Script Web App URL
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbz0SZKdwj27UCyIVK-mWhwVftD3UgLS5De03DnsdNuFmX3YMN57p3tKt4ojlaKAwCuYcA/exec';
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyi0FGiy4XQXuA1NMW9SLfVWgKvYCDNJFGECoL7s8yn/dev';
         
         fetch(scriptURL, {
             method: 'POST',
